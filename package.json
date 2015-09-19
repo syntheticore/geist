@@ -1,0 +1,42 @@
+{
+  "name": "geist",
+  "version": "0.1.0",
+  "description": "Build virtual assistants for the web",
+  "homepage": "https://github.com/syntheticore/geist",
+  "author": "Björn Breitgoff <syntheticore@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/syntheticore/geist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syntheticore/geist/issues"
+  },
+  "main": "geist.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "eakwell": "^0.1.0",
+    "natural": "^0.2.1",
+    "rsvp": "^3.1.0",
+    "ssml": "0.0.3"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "codeclimate-test-reporter": "^0.1.1",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.1"
+  },
+  "keywords": [
+    "ai",
+    "chat bot",
+    "speech",
+    "recognition",
+    "synthesis",
+    "virtual",
+    "assistant",
+    "siri",
+    "cortana"
+  ]
+}
